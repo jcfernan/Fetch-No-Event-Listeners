@@ -9,7 +9,7 @@
 
    button.addEventListener('click', () => {
     //  console.log('event', event.target.parentNode)
-    console.log('event', event.isTrusted)
+    console.log('event', event)
     fetchBagels()
    })
   
